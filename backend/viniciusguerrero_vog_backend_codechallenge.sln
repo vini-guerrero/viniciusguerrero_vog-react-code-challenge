@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{67FC6BAF-055B-446A-8232-52282C891B5A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VogCodeChallenge.Data", "VogCodeChallenge.Data\VogCodeChallenge.Data.csproj", "{40C5B0E7-06CA-4888-8BAF-4B04EA35B1A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VogCodeChallenge.Services", "VogCodeChallenge.Services\VogCodeChallenge.Services.csproj", "{273CA96C-A770-4462-A28A-B08C8AA10BBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

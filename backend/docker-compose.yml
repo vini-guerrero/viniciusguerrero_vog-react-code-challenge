@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  vogcodechallenge.api:
+    container_name: vogcodechallenge.api
+    build:
+      context: .
+      dockerfile: vogcodechallenge.api/Dockerfile
+    ports:
+      - "30001:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
